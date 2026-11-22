@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Casa Obàtálá">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#8B4513">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="theme-color" content="#8B4513">
+    <meta name="google-site-verification" content="KX-C6CpwaZiMUm-EpD7JS7nzJ_whsM1pL68hNSP51VU" />
+    <meta name="msvalidate.01" content="94BAC67B0A9B92E6FB4C6F49EA453313" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Analytics 4 con Consent Mode v2 -->
+    <!-- NOTA: gtag consent default è gestito da cookie-banner.js (caricato a fine body).
+         Qui teniamo solo il tag asincrono di GA4; il config viene chiamato dal banner
+         dopo aver impostato il consent, evitando così il firing anticipato. -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CY01LVTL28"></script>
+    <title>Casa Obàtálá | Tradizione Yorùbá, Meditazione e Percorsi Spirituali</title>
+    <meta name="description" content="Lorenzo Okìkí Rossi, iniziato nel culto Yorùbá di Obàtálá. Meditazione profonda, percorsi spirituali e consulenze nella tradizione di Ọ̀yọ́. Roma e online.">
+    <meta name="keywords" content="meditazione profonda, fitoterapia, tradizione Yorùbá, Orisha, naturopatia, counseling, spiritualità africana, Roma, Toscana, online">
+    <meta name="author" content="Lorenzo Okìkí Rossi">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://casaobatala.it/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://casaobatala.it/">
+    <meta property="og:title" content="Casa Obàtálá - Meditazione Profonda e Fitoterapia Yoruba">
+    <meta property="og:description" content="Lorenzo Okìkí Rossi, iniziato nel culto tradizionale Yorùbá di Òrìṣà. Meditazioni profonde, fitoterapia e percorsi spirituali a Roma e online.">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:site_name" content="Casa Obàtálá">
+    
+    <!-- Immagine del sito -->
+    <meta property="og:image" content="https://casaobatala.it/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="Casa Obàtálá - Meditazione e Tradizione Yoruba">
+        
+    <!-- Immagine dell'app -->
+    <meta property="og:image" content="https://casaobatala.it/images/app-calendario-yoruba.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:alt" content="App Calendario Yoruba">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Casa Obàtálá - Meditazione Profonda e Fitoterapia Yoruba">
+    <meta name="twitter:description" content="Lorenzo Okìkí Rossi, iniziato nel culto tradizionale Yorùbá di Òrìṣà. Meditazioni profonde, fitoterapia e percorsi spirituali.">
+    <meta name="twitter:image" content="https://casaobatala.it/og-image.png">
+
+    <!-- Geo Tags per SEO Locale -->
+    <meta name="geo.region" content="IT-RM">
+    <meta name="geo.placename" content="Ostia Lido, Roma">
+    <meta name="geo.position" content="41.7326;12.2778">
+    <meta name="ICBM" content="41.7326, 12.2778">
+
+    <link rel="preconnect"  href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&family=Hanken+Grotesk:wght@300..600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&family=Hanken+Grotesk:wght@300..600&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&family=Hanken+Grotesk:wght@300..600&display=swap"></noscript>
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "@id": "https://casaobatala.it/#business",
+      "name": "Casa Obàtálá",
+      "alternateName": "Casa Obatala",
+      "description": "Meditazioni profonde guidate, consulenze di fitoterapia e percorsi spirituali nella tradizione di Orisha Yorùbá, Reiki. Servizi disponibili a Roma, Toscana e online.",
+      "url": "https://casaobatala.it/",
+      "telephone": "+393473638901",
+      "email": "lorenzo.okiki@gmail.com",
+      "sameAs": ["https://www.instagram.com/lorenzo.okiki.rossi"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Viale dei Promontori 310",
+        "addressLocality": "Ostia Lido",
+        "addressRegion": "RM",
+        "postalCode": "00122",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.7326,
+        "longitude": 12.2778
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Roma"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Toscana"
+        },
+        {
+          "@type": "Country",
+          "name": "Italia"
+        }
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "10:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "13:00"
+        }
+      ],
+      "founder": {
+        "@type": "Person",
+        "@id": "https://casaobatala.it/#lorenzo-okiki-rossi",
+        "name": "Lorenzo Okìkí Rossi",
+        "alternateName": ["Bamgbalá Okìkí Ńlá", "Bamgbalá Okìkí"],
+        "jobTitle": "Divulgatore e iniziato nel culto tradizionale Yorùbá di Obàtálá",
+        "url": "https://casaobatala.it/chi-sono"
+      },
+      "knowsAbout": ["Tradizione Yoruba", "Orisha", "Obàtálá", "Fitoterapia", "Meditazione", "Piante officinali", "Ìṣẹ̀ṣe", "Orí"],
+      "priceRange": "€€",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": "Contanti, Bonifico",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servizi Casa Obàtálá",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Meditazione Profonda Individuale",
+              "description": "Sessione guidata di meditazione per incontrare la propria guida interiore (Orí), Training Autogeno, Meditazioni a Mediazione Corporea"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Consulenza Fitoterapia",
+              "description": "Consulenza personalizzata sulle piante officinali nella tradizione occidentale e Yorùbá"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Percorso di Crescita Spirituale",
+              "description": "Cammino personalizzato di crescita interiore nella tradizione Yorùbá"
+            }
+            },
+            {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reiki",
+              "description": "Master Reiki, Trattamenti Reiki, Corsi di I e II Livello Reiki"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+    
+    <!-- Schema.org WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Casa Obàtálá",
+      "url": "https://casaobatala.it/",
+      "description": "Sito ufficiale di Casa Obàtálá - Meditazione profonda, fitoterapia e tradizione Yorùbá",
+      "inLanguage": "it-IT",
+      "dateModified": "2026-11-21",
+      "publisher": {
+        "@type": "Person",
+        "@id": "https://casaobatala.it/#lorenzo-okiki-rossi",
+        "name": "Lorenzo Okìkí Rossi"
+      }
+    }
+    </script>
+    <!-- Schema.org WebPage + Speakable -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://casaobatala.it/#webpage",
+      "url": "https://casaobatala.it/",
+      "name": "Casa Obàtálá — Tradizione Yorùbá, Meditazione e Percorsi Spirituali",
+      "description": "Lorenzo Okìkí Rossi, Omọ Obàtálá, iniziato nella tradizione Ìṣẹ̀ṣe di Ọ̀yọ́. Meditazione su Orí, fitoterapia, consulenze spirituali a Roma e online.",
+      "inLanguage": "it-IT",
+      "isPartOf": { "@id": "https://casaobatala.it/" },
+      "about": { "@id": "https://casaobatala.it/#business" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".hero-content", ".section-title", ".card p"]
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "App Calendario Yoruba",
+      "description": "APK Android e Web App gratuita per i giorni sacri degli Orisha nel ciclo Nigeriano - Calendario lunare Kojoda",
+      "applicationCategory": "ProductivityApplication",
+      "downloadUrl": "https://casaobatala.it/calendario/calendario-yoruba.apk",
+      "operatingSystem": "Android",
+      "fileSize": "5.9 MB",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      }
+    }
+    </script>
+
+    <script>document.documentElement.className += ' js';</script>
+    <style>
+        :root {
+            --paper: #fafafa;
+            --paper-warm: #faf8f5;
+            --clay: #f0ebe4;
+            --ink: #1a1a1a;
+            --earth: #8B4513;
+            --gold: #B8860B;
+            --gold-light: #DAA520;
+            --text: #6b5d4f;
+            --text-deep: #4a3f35;
+            --line: rgba(139, 69, 19, 0.22);
+            --serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+            --sans: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+            --gutter: clamp(1.25rem, 5vw, 4rem);
+            --nav-h: 64px;
+            --ease: cubic-bezier(.2, .7, .1, 1);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-padding-top: var(--nav-h); }
+        @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+        body { font-family: var(--sans); background: var(--paper); color: var(--ink); line-height: 1.6; overflow-x: clip; padding-top: var(--nav-h); -webkit-font-smoothing: antialiased; }
+        img { display: block; max-width: 100%; }
+        :focus-visible { outline: 2px solid var(--earth); outline-offset: 3px; }
+        .skip { position: absolute; left: 1rem; top: -4rem; background: var(--ink); color: var(--paper); padding: .6rem 1rem; z-index: 2000; text-decoration: none; }
+        .skip:focus { top: .75rem; }
+        .wrap { max-width: 1280px; margin: 0 auto; padding: 0 var(--gutter); }
+        .rail { display: grid; gap: 1.5rem; }
+        @media (min-width: 900px) {
+            .rail { grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); column-gap: clamp(2rem, 5vw, 5rem); }
+        }
+
+        /* NAV */
+        nav { position: fixed; inset: 0 0 auto 0; height: var(--nav-h); padding: 0 var(--gutter); z-index: 1000; display: flex; justify-content: space-between; align-items: center; background: rgba(250,250,250,.92); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+        .logo { font-family: var(--serif); font-size: 1.4rem; font-weight: 400; letter-spacing: .01em; color: var(--earth); text-decoration: none; }
+        .nav-links { display: none; gap: 1.6rem; list-style: none; }
+        .nav-links a { position: relative; display: inline-block; padding: .4rem 0; color: var(--ink); text-decoration: none; font-size: .9rem; }
+        .nav-links a::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform .45s var(--ease); }
+        .nav-links a:hover::after, .nav-links a:focus-visible::after { transform: scaleX(1); }
+        .menu-toggle { display: flex; flex-direction: column; justify-content: center; align-items: flex-end; gap: 6px; width: 44px; height: 44px; margin-right: -9px; background: none; border: 0; cursor: pointer; }
+        .menu-toggle span { display: block; width: 26px; height: 1.5px; background: var(--earth); transition: transform .4s var(--ease), opacity .25s ease; }
+        .menu-toggle span:nth-child(2) { width: 17px; }
+        .menu-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
+        .menu-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+        .menu-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
+        .mobile-menu { position: fixed; top: var(--nav-h); left: 0; right: 0; max-height: calc(100vh - var(--nav-h)); overflow-y: auto; padding: .5rem var(--gutter) 1.5rem; background: var(--paper); border-bottom: 1px solid var(--line); z-index: 999; visibility: hidden; opacity: 0; transform: translateY(-10px); transition: opacity .35s ease, transform .45s var(--ease), visibility 0s linear .45s; }
+        .mobile-menu.active { visibility: visible; opacity: 1; transform: none; transition-delay: 0s; }
+        .mobile-menu a { display: block; padding: .8rem 0; font-family: var(--serif); font-size: 1.45rem; font-weight: 300; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+        .mobile-menu a:last-child { border-bottom: 0; }
+
+        /* IMMAGINI: cornice + strato che scorre piano (parallasse) */
+        .frame { position: relative; overflow: hidden; background: var(--clay); }
+        .frame .px { position: absolute; left: 0; right: 0; top: -8%; bottom: -8%; transform: translateY(calc(var(--py, 0) * 1%)); will-change: transform; }
+        .frame img { width: 100%; height: 100%; object-fit: cover; }
+        /* il telo si scopre: una volta sola, quando l'immagine entra in vista */
+        .js .rv:not(.in) > .frame { clip-path: inset(0 100% 0 0); }
+        .js .rv.in > .frame { clip-path: inset(0 0 0 0); transition: clip-path 1.4s var(--ease); }
+
+        /* HERO */
+        .hero { background: var(--paper-warm); padding: 0 var(--gutter); overflow: hidden; }
+        .hero-grid { display: grid; gap: 1.75rem; max-width: 1280px; margin: 0 auto; padding-bottom: clamp(2.5rem, 7vh, 4.5rem); }
+        .hero-media { aspect-ratio: 16 / 11; margin: 0 calc(-1 * var(--gutter)); clip-path: inset(0 0 100% 0); animation: unroll 1.7s var(--ease) .15s forwards; }
+        .hero-media img { transform: scale(1.14); animation: settle 2.8s var(--ease) .15s forwards; }
+        @keyframes unroll { to { clip-path: inset(0 0 0 0); } }
+        @keyframes settle { to { transform: scale(1); } }
+        .hero-content { position: relative; z-index: 2; }
+        h1 { font-family: var(--serif); font-weight: 300; font-size: clamp(3.6rem, 15vw, 9.5rem); font-size: clamp(3.6rem, min(15vw, 17svh), 9.5rem); line-height: .92; letter-spacing: -.025em; color: var(--ink); }
+        h1 .ln { display: block; overflow: hidden; padding-top: .16em; margin-top: -.16em; }
+        h1 .ln > span { display: block; transform: translateY(108%); animation: rise 1.3s var(--ease) forwards; animation-delay: calc(.8s + var(--i) * .15s); }
+        @keyframes rise { to { transform: none; } }
+        .subtitle { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem 1.6rem; margin-top: clamp(1.2rem, 3vh, 2rem); font-weight: 400; }
+        .sub-a, .sub-b { clip-path: inset(-.3em 100% -.3em -.1em); animation: unveil 1.3s var(--ease) forwards; }
+        .sub-a { font-family: var(--serif); font-style: italic; font-size: clamp(1.4rem, 3vw, 2rem); color: var(--earth); animation-delay: 1.8s; }
+        .sub-b { font-size: clamp(.95rem, 1.6vw, 1.1rem); color: var(--text); animation-delay: 2s; }
+        @keyframes unveil { to { clip-path: inset(-.3em -.1em -.3em -.1em); } }
+        @media (min-width: 900px) {
+            .hero-grid { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: clamp(2rem, 5vw, 5rem); align-items: end; min-height: max(560px, calc(100svh - var(--nav-h) - 4.5rem)); padding-top: 2.5rem; }
+            .hero-content { grid-column: 1; grid-row: 1; }
+            .hero-media { grid-column: 2; grid-row: 1; align-self: stretch; aspect-ratio: auto; margin: 0; max-height: 80vh; }
+        }
+
+        /* NOVITÀ */
+        .news-section { padding-top: 0; }
+        .news-card { padding: clamp(2.5rem, 6vw, 4.5rem) 0; color: inherit; text-decoration: none; border-bottom: 1px solid var(--line); }
+        .news-label { display: flex; align-items: center; gap: .6rem; font-size: .95rem; font-weight: 500; color: var(--earth); }
+        .news-label::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--gold); }
+        .news-card h3 { margin-top: .4rem; max-width: 22ch; font-family: var(--sans); font-size: 1rem; font-weight: 400; color: var(--text); }
+        .news-title { font-family: var(--serif); font-weight: 300; font-size: clamp(2rem, 4.4vw, 3.4rem); line-height: 1.05; letter-spacing: -.015em; color: var(--ink); transition: color .4s ease; }
+        .news-card:hover .news-title { color: var(--earth); }
+        .news-lead { margin-top: .6rem; font-family: var(--serif); font-style: italic; font-size: clamp(1.2rem, 2vw, 1.5rem); color: var(--earth); }
+        .news-text { margin-top: 1.2rem; max-width: 52ch; color: var(--text); font-size: 1.05rem; }
+        .news-date { display: inline-block; margin-top: 1.6rem; padding-bottom: .3rem; font-size: .95rem; font-weight: 500; color: var(--earth); background: linear-gradient(var(--earth), var(--earth)) 0 100% / 0% 1px no-repeat, linear-gradient(var(--line), var(--line)) 0 100% / 100% 1px no-repeat; transition: background-size .6s var(--ease); }
+        .news-card:hover .news-date, .news-card:focus-visible .news-date { background-size: 100% 1px, 100% 1px; }
+
+        /* INTRO */
+        .intro-section { padding: clamp(4rem, 10vw, 8rem) 0 clamp(3.5rem, 8vw, 6.5rem); }
+        .intro-heading { max-width: 14ch; font-family: var(--serif); font-weight: 300; font-size: clamp(1.7rem, 3vw, 2.4rem); line-height: 1.15; letter-spacing: -.01em; color: var(--ink); }
+        .intro-aside .rv { margin-top: 2rem; width: min(100%, 320px); }
+        .intro-aside .swatch { aspect-ratio: 4 / 5; }
+        .intro-text { max-width: 30em; font-family: var(--serif); font-weight: 300; font-size: clamp(1.3rem, 2.2vw, 1.7rem); line-height: 1.5; color: var(--text-deep); }
+        .intro-text + .intro-text { margin-top: 1.1em; }
+
+        /* ESPLORA */
+        .explore { padding: clamp(3.5rem, 8vw, 6rem) 0 clamp(4rem, 10vw, 8rem); background: var(--clay); }
+        .rail-head { align-self: start; }
+        .rail-head .rv { display: none; }
+        @media (min-width: 900px) {
+            .rail-head { position: sticky; top: calc(var(--nav-h) + 2rem); }
+            .rail-head .rv { display: block; margin-top: 2.25rem; width: min(100%, 300px, calc(44svh * .8)); }
+            .rail-head .swatch { aspect-ratio: 4 / 5; }
+        }
+        .section-title { font-family: var(--serif); font-weight: 300; font-size: clamp(2.6rem, 6vw, 4.8rem); line-height: 1; letter-spacing: -.02em; color: var(--ink); }
+        .section-subtitle { margin-top: 1rem; max-width: 20ch; font-size: 1rem; color: var(--text); }
+        .rows { display: flex; flex-direction: column; border-bottom: 1px solid rgba(139,69,19,.28); }
+
+        .card { position: relative; display: grid; grid-template-columns: 56px minmax(0, 1fr); column-gap: 1.25rem; align-items: center; padding: 1.5rem .75rem; color: inherit; text-decoration: none; transition: background-color .5s ease; }
+        .card::before, .card::after { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 1px; }
+        .card::before { background: rgba(139,69,19,.28); }
+        .card::after { background: var(--earth); transform: scaleX(0); transform-origin: left; transition: transform .65s var(--ease); }
+        .card:hover::after, .card:focus-visible::after { transform: scaleX(1); }
+        .card:hover { background: rgba(255,255,255,.55); }
+        .card:focus-visible { outline-offset: -3px; }
+        .card-text { transition: transform .5s var(--ease); }
+        .card:hover .card-text { transform: translateX(.6rem); }
+        .card-icon { display: grid; place-items: center; width: 56px; height: 56px; }
+        .card-icon img { width: 56px; height: 56px; object-fit: contain; }
+        .card h3 { font-family: var(--serif); font-weight: 400; font-size: clamp(1.5rem, 2.6vw, 2rem); line-height: 1.15; letter-spacing: -.01em; color: var(--ink); transition: color .4s ease; }
+        .card:hover h3 { color: var(--earth); }
+        .card p { margin-top: .35rem; max-width: 46ch; color: var(--text); font-size: .98rem; line-height: 1.55; }
+        .card-badge { display: inline-block; margin-top: .7rem; padding: .1rem .55rem; border: 1px solid rgba(139,69,19,.4); border-radius: 2px; font-size: .8rem; font-weight: 500; color: var(--earth); }
+        .card .card-meta { font-size: .82rem; color: var(--earth); }
+
+        .rows .card-featured { grid-template-columns: 72px minmax(0, 1fr); margin-bottom: 1.25rem; padding: clamp(1.75rem, 4vw, 3rem); background: var(--earth); color: var(--paper); }
+        .card-featured:hover { background: var(--earth); }
+        .card-featured::before { display: none; }
+        .card-featured::after { top: auto; bottom: 0; height: 3px; background: var(--gold-light); }
+        .card-featured:focus-visible { outline-color: var(--gold-light); }
+        .card-featured .card-icon { width: 72px; height: 72px; }
+        .card-featured .card-icon svg { width: 72px; height: 72px; stroke: var(--paper); fill: rgba(218,165,32,.28); transition: transform .8s var(--ease); transform-origin: 50% 90%; }
+        .card-featured:hover .card-icon svg { transform: scale(1.08) rotate(-2deg); }
+        .card-featured h3, .card-featured:hover h3 { font-size: clamp(2rem, 4vw, 2.9rem); font-weight: 300; color: var(--paper); }
+        .card-featured p { max-width: 40ch; color: rgba(250,250,250,.9); font-size: 1.05rem; }
+        @media (min-width: 700px) {
+            .card { grid-template-columns: 72px minmax(0, 1fr); column-gap: 1.75rem; padding: 1.75rem 1rem; }
+            .card-icon, .card-icon img { width: 64px; height: 64px; }
+            .rows .card-featured { grid-template-columns: 112px minmax(0, 1fr); }
+            .card-featured .card-icon, .card-featured .card-icon svg { width: 96px; height: 96px; }
+        }
+
+        /* FOOTER */
+        .footer-border { height: clamp(84px, 11vw, 150px); }
+        .footer-border .px { top: -12%; bottom: -12%; }
+        footer { padding: clamp(3rem, 7vw, 5rem) 0 2rem; background: var(--ink); color: rgba(250,250,250,.78); }
+        .footer-brand { font-family: var(--serif); font-weight: 300; font-size: clamp(2.2rem, 5vw, 3.6rem); line-height: 1; color: var(--paper); }
+        footer p { font-size: .95rem; line-height: 1.8; }
+        footer a { color: var(--gold-light); text-decoration: none; background: linear-gradient(currentColor, currentColor) 0 100% / 0% 1px no-repeat; transition: background-size .45s var(--ease); }
+        footer a:hover, footer a:focus-visible { background-size: 100% 1px; }
+        footer :focus-visible { outline-color: var(--gold-light); }
+        .footer-links { margin-top: 1rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
+        .footer-legal { margin-top: clamp(2.5rem, 6vw, 4rem); padding-top: 1.25rem; border-top: 1px solid rgba(250,250,250,.15); font-size: .85rem; color: rgba(250,250,250,.6); }
+
+        @media (min-width: 1180px) {
+            .menu-toggle { display: none; }
+            .nav-links { display: flex; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .hero-media { animation: none; clip-path: none; }
+            .hero-media img { animation: none; transform: none; }
+            h1 .ln > span { animation: none; transform: none; }
+            .sub-a, .sub-b { animation: none; clip-path: none; }
+            .js .rv:not(.in) > .frame { clip-path: none; }
+            .frame .px { transform: none; }
+            .card-text, .card-featured .card-icon svg { transition: none; }
+        }
+    </style>
+</head>
+<body>
+    <a class="skip" href="#contenuto">Vai al contenuto</a>
+    <nav aria-label="Principale">
+        <a href="/" class="logo" title="Casa Obàtálá - Home">Casa Obàtálá</a>
+        <button class="menu-toggle" type="button" onclick="toggleMenu()" aria-label="Apri il menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+        <ul class="nav-links">
+            <li><a href="/" title="Torna alla homepage">Home</a></li>
+<li><a href="servizi" title="Consulenze spirituali, meditazione e rituali">Servizi</a></li>
+<li><a href="meditazione" title="Sessioni di meditazione profonda individuale e online">Meditazione</a></li>
+<li><a href="piante" title="Fitoterapia e saggezza delle piante nella tradizione Yorùbá">Piante</a></li>
+<li><a href="glossario" title="Glossario di 987 piante tra tradizione italiana e Yorùbá">Glossario</a></li>
+<li><a href="blog" title="Articoli sulla tradizione Yorùbá e il cammino spirituale">Blog</a></li>
+<li><a href="calendario" title="App Calendario Yorùbá - giorni sacri degli Òrìṣà">App Calendario Yoruba</a></li>
+<li><a href="eventi" title="Workshop, percorsi di gruppo e appuntamenti">Eventi</a></li>
+<li><a href="chi-sono" title="Il cammino di Lorenzo Okìkí Rossi nella tradizione Yorùbá">Chi Sono</a></li>
+<li><a href="contatti" title="Contatta Casa Obàtálá per consulenze e informazioni">Contatti</a></li>
+        </ul>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="/" title="Torna alla homepage">Home</a>
+<a href="servizi" title="Consulenze spirituali, meditazione e rituali">Servizi</a>
+<a href="meditazione" title="Sessioni di meditazione profonda individuale e online">Meditazione</a>
+<a href="piante" title="Fitoterapia e saggezza delle piante nella tradizione Yorùbá">Piante</a>
+<a href="glossario" title="Glossario di 987 piante tra tradizione italiana e Yorùbá">Glossario Piante</a>
+<a href="blog" title="Articoli sulla tradizione Yorùbá e il cammino spirituale">Blog</a>
+<a href="calendario" title="App Calendario Yorùbá - giorni sacri degli Òrìṣà">App Calendario Yorùbá</a>
+<a href="eventi" title="Workshop, percorsi di gruppo e appuntamenti">Eventi</a>
+<a href="chi-sono" title="Il cammino di Lorenzo Okìkí Rossi nella tradizione Yorùbá">Chi Sono</a>
+<a href="contatti" title="Contatta Casa Obàtálá per consulenze e informazioni">Contatti</a>
+    </div>
+
+    <main id="contenuto">
+    <section class="hero">
+        <div class="hero-grid">
+            <figure class="hero-media frame">
+                <div class="px">
+                    <img src="/images/home/stuoia-1100.webp" srcset="/images/home/stuoia-700.webp 700w, /images/home/stuoia-1100.webp 1100w" sizes="(min-width: 900px) 40vw, 100vw" width="1100" height="1375" alt="Stuoia di fibra naturale intrecciata a spina di pesce, con fili blu in diagonale" fetchpriority="high" decoding="async">
+                </div>
+            </figure>
+            <div class="hero-content">
+                <h1><span class="ln"><span style="--i:0">Lorenzo</span></span> <span class="ln"><span style="--i:1">Okìkí</span></span> <span class="ln"><span style="--i:2">Rossi</span></span></h1>
+                <h2 class="subtitle"><span class="sub-a">Omọ Obàtálá</span> <span class="sub-b">Culto Tradizionale Yoruba di Òrìṣà</span></h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="sezioni">
+        <!-- News -->
+        <div class="wrap news-section">
+            <a href="blog" class="news-card rail" title="Leggi l'articolo su Obàtálá nel blog di Casa Obàtálá">
+                <div class="news-head">
+                    <span class="news-label">Novità</span>
+                    <h3>Un nuovo articolo pubblicato nel blog</h3>
+                </div>
+                <div class="news-body">
+                    <p class="news-title">Obàtálá il padre antico</p>
+                    <p class="news-lead">Chi è Obàtálá?</p>
+                    <p class="news-text">Un breve articolo per iniziare a conoscere l'Òrìṣà che modella i corpi, Òrìṣà della saggezza, della pazienza.</p>
+                    <span class="news-date">Vai alla pagina del Blog.</span>
+                </div>
+            </a>
+        </div>
+
+        <section class="intro-section">
+            <div class="wrap rail">
+                <div class="intro-aside">
+                    <h2 class="intro-heading">Tradizione Yorùbá, Meditazione e Percorsi Spirituali</h2>
+                    <div class="rv"><figure class="swatch frame">
+                        <div class="px"><img src="/images/home/tessuto-bianco-800.webp" width="800" height="1000" alt="Dettaglio di un tessuto bianco lavorato a rete" loading="lazy" decoding="async"></div>
+                    </figure></div>
+                </div>
+                <div class="intro-body">
+                    <p class="intro-text">Casa Obàtálá è lo spazio di lavoro di Lorenzo Okìkí Rossi (Bamgbalá Okìkí), divulgatore e iniziato nel culto di Obàtálá della tradizione di Ọ̀yọ́ di Òrìṣà (ẹsin Òrìṣà ìbílẹ̀). Meditazioni e Rituali radicate nella tradizione Yorùbá, percorsi di conoscenza degli Òrìṣà e consulenze spirituali.</p>
+                    <p class="intro-text">Pulizie energetiche e spirituali attraverso le conoscenze dell'Umbanda Brasiliana. Divinazioni, Tarocchi. Percorsi di meditazione a mediazione corporea, mindfulness e crescita personale.</p>
+                    <p class="intro-text">Un luogo dove puoi essere te stesso senza giudizio e scoprire il tuo talento innato. La tradizione di Ọ̀yọ́ come strumento di conoscenza: degli Òrìṣà, del mondo e di sé stessi.</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="explore">
+        <div class="wrap rail">
+            <div class="rail-head">
+                <h2 class="section-title">Esplora</h2>
+                <p class="section-subtitle">Scopri il mio cammino</p>
+                <div class="rv"><figure class="swatch frame">
+                    <div class="px"><img src="/images/home/tessuto-verde-acqua-800.webp" width="800" height="1000" alt="Tessuto verde acqua con ricami geometrici e orlo a scalini, appoggiato sulla stuoia" loading="lazy" decoding="async"></div>
+                </figure></div>
+            </div>
+            <div class="rows">
+                <a href="servizi" class="card card-featured" title="Scopri i servizi di Casa Obàtálá">
+                    <div class="card-icon">
+                        <svg width="80" height="80" viewBox="0 0 80 80" aria-hidden="true" focusable="false" fill="rgba(184,134,11,0.14)" stroke="#8B4513" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+                            <path d="M40 16C49 29 49 45 40 58C31 45 31 29 40 16Z"/>
+                            <path d="M40 58C27 54 19 44 19 31C30 33 38 43 40 58Z"/>
+                            <path d="M40 58C53 54 61 44 61 31C50 33 42 43 40 58Z"/>
+                            <path d="M40 58C22 58 10 51 7 41C20 40 34 46 40 58Z"/>
+                            <path d="M40 58C58 58 70 51 73 41C60 40 46 46 40 58Z"/>
+                            <path d="M27 65H53" fill="none"/>
+                        </svg>
+                    </div>
+                    <div class="card-text">
+                        <h3>Servizi</h3>
+                        <p>Consulenze spirituali, ẹbọ, meditazione su Orí e bagni rituali. Roma, Toscana e online.</p>
+                    </div>
+                </a>
+                <a href="meditazione" class="card" title="Meditazione profonda individuale e online">
+                    <div class="card-icon"><img src="/images/icons/icona-meditazione.png" alt="Meditazione" width="64" height="64" loading="lazy" decoding="async"></div>
+                    <div class="card-text">
+                        <h3>Meditazione Profonda</h3>
+                        <p>Meditazioni su Orí (tradizione Yoruba), Training Autogeno e Meditazioni Dinamiche Osho. In presenza e online.</p>
+                        <div class="card-badge">3 Tipologie</div>
+                    </div>
+                </a>
+                <a href="piante" class="card" title="Fitoterapia e piante officinali nella tradizione Yorùbá">
+                    <div class="card-icon"><img src="/images/icons/icona-piante.png" alt="Piante" width="64" height="64" loading="lazy" decoding="async"></div>
+                    <div class="card-text">
+                        <h3>Saggezza delle Piante</h3>
+                        <p>Fitoterapia integrata con la tradizione Yoruba. Corpo e spirito insieme.</p>
+                    </div>
+                </a>
+                <a href="glossario" class="card" title="Glossario di 987 piante tra tradizione italiana e Yorùbá">
+                    <div class="card-icon"><img src="/images/icons/icona-glossario.png" alt="Glossario" width="64" height="64" loading="lazy" decoding="async"></div>
+                    <div class="card-text">
+                        <h3>Glossario Piante</h3>
+                        <p>987 piante tra tradizione italiana e saggezza Yoruba.</p>
+                    </div>
+                </a>
+                <a href="blog" class="card" title="Blog sulla tradizione Yorùbá e meditazione">
+                    <div class="card-icon"><img src="/images/icons/icona-blog.png" alt="Blog" width="64" height="64" loading="lazy" decoding="async"></div>
+                    <div class="card-text">
+                        <h3>Blog</h3>
+                        <p>Riflessioni sulla tradizione Yoruba, la meditazione e il cammino spirituale.</p>
+                    </div>
+                </a>
+                <a href="calendario" class="card" title="App Calendario Yorùbá gratuita per Android e browser">
+                    <div class="card-icon"><img src="/images/icons/icona-calendario.png" alt="App Calendario Yoruba APK Android" width="64" height="64" loading="lazy" decoding="async"></div>
+                    <div class="card-text">
+                        <h3>App Calendario Yoruba</h3>
+                        <p>Scarica APK per Android e Web App per iOS e Browser.</p>
+                        <p><strong>Kọ́jọ́dá</strong> i Giorni sacri degli Òrìṣà nel ciclo di 4 giorni.</p>
+                        <p class="card-meta"><strong>dim:5.2 MB • Android 8+</strong></p>
+                        <div class="card-badge">Scarica APK Android Gratis</div>
+                    </div>
+                </a>
+                <a href="chi-sono" class="card" title="Chi è Lorenzo Okìkí Rossi - il cammino spirituale">
+                    <div class="card-icon"><img src="/images/icons/icona-chi-sono.png" alt="Chi Sono" width="64" height="64" loading="lazy" decoding="async"></div>
+                    <div class="card-text">
+                        <h3>Chi Sono</h3>
+                        <p>Il mio cammino dalla naturopatia al culto tradizionale Yoruba.</p>
+                    </div>
+                </a>
+                <a href="eventi" class="card" title="Eventi, workshop e percorsi di gruppo">
+                    <div class="card-icon"><img src="/images/icons/icona-eventi.png" alt="Eventi" width="64" height="64" loading="lazy" decoding="async"></div>
+                    <div class="card-text">
+                        <h3>Eventi</h3>
+                        <p>Percorsi di gruppo, workshop e appuntamenti.</p>
+                    </div>
+                </a>
+                <a href="contatti" class="card" title="Contatta Casa Obàtálá">
+                    <div class="card-icon"><img src="/images/icons/icona-contatti.png" alt="Contatti" width="64" height="64" loading="lazy" decoding="async"></div>
+                    <div class="card-text">
+                        <h3>Contatti</h3>
+                        <p>Inizia il tuo cammino. Scrivimi.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <div class="rv" aria-hidden="true"><div class="footer-border frame">
+        <div class="px"><img src="/images/home/bordo-stampa-1800.webp" width="1800" height="293" alt="" loading="lazy" decoding="async"></div>
+    </div></div>
+    <footer>
+        <div class="wrap">
+            <div class="rail">
+                <p class="footer-brand" aria-hidden="true">Casa Obàtálá</p>
+                <div class="footer-info">
+                    <p><a href="tel:+393473638901">347 363 8901</a><br><a href="mailto:lorenzo.okiki@gmail.com">lorenzo.okiki@gmail.com</a></p>
+                    <p class="footer-links"><a href="privacy-policy" title="Leggi la Privacy Policy di Casa Obàtálá">Privacy Policy</a> <a href="cookie-policy" title="Leggi la Cookie Policy di Casa Obàtálá">Cookie Policy</a></p>
+                </div>
+            </div>
+            <p class="footer-legal">© 2026 Casa Obàtálá – Lorenzo Okìkí Rossi</p>
+        </div>
+    </footer>
+
+    <script>
+    function toggleMenu() {
+        var menu = document.getElementById('mobileMenu');
+        var btn = document.querySelector('.menu-toggle');
+        var open = menu.classList.toggle('active');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        btn.setAttribute('aria-label', open ? 'Chiudi il menu' : 'Apri il menu');
+    }
+    (function () {
+        var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var menu = document.getElementById('mobileMenu');
+
+        menu.addEventListener('click', function (e) {
+            if (e.target.closest('a') && menu.classList.contains('active')) toggleMenu();
+        });
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && menu.classList.contains('active')) toggleMenu();
+        });
+        window.addEventListener('resize', function () {
+            if (window.innerWidth >= 1180 && menu.classList.contains('active')) toggleMenu();
+        });
+
+        /* Le immagini si scoprono una volta sola, quando entrano in vista */
+        var reveals = [].slice.call(document.querySelectorAll('.rv'));
+        if (reduce || !('IntersectionObserver' in window)) {
+            reveals.forEach(function (el) { el.classList.add('in'); });
+        } else {
+            var io = new IntersectionObserver(function (entries) {
+                entries.forEach(function (e) {
+                    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+                });
+            }, { rootMargin: '0px 0px -12% 0px', threshold: 0.05 });
+            reveals.forEach(function (el) { io.observe(el); });
+        }
+
+        /* Parallasse lento: l'immagine scorre un po' meno della pagina */
+        var layers = [].slice.call(document.querySelectorAll('.frame .px'));
+        if (!reduce && layers.length) {
+            var ticking = false;
+            var update = function () {
+                var vh = window.innerHeight;
+                layers.forEach(function (px) {
+                    var r = px.parentNode.getBoundingClientRect();
+                    if (r.bottom < 0 || r.top > vh) return;
+                    var off = (r.top + r.height / 2 - vh / 2) / (vh / 2 + r.height / 2);
+                    px.style.setProperty('--py', (-off * 6).toFixed(2));
+                });
+                ticking = false;
+            };
+            var req = function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } };
+            window.addEventListener('scroll', req, { passive: true });
+            window.addEventListener('resize', req);
+            update();
+        }
+    })();
+    </script>
+    <script src="/cookie-banner.js"></script>
+    <!-- Cloudflare Web Analytics -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5c2901b7eb6543afbbdc4511df321f54"}'></script>
+    <!-- End Cloudflare Web Analytics -->
+</body>
+</html>
